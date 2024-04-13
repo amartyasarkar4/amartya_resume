@@ -138,7 +138,7 @@ const MyPage1 = () => {
       <View style={styles.pageFlex}>
         <View style={styles.section}>
           <Image
-            alt="ownImg"
+            // alt="ownImg"
             src={"/myImg.png"}
             style={{
               width: "48px",
@@ -154,7 +154,7 @@ const MyPage1 = () => {
           </Text>
           <View style={styles.flexComp}>
             <Image
-              alt=""
+              // alt=""
               src={"/pdfcomp/call.png"}
               style={{
                 width: "15px",
@@ -173,7 +173,7 @@ const MyPage1 = () => {
           </View>
           <View style={styles.flexComp}>
             <Image
-              alt="git"
+              // alt="git"
               src={"/pdfcomp/github.png"}
               style={{
                 width: "11px",
@@ -188,7 +188,7 @@ const MyPage1 = () => {
           </View>
           <View style={styles.flexComp}>
             <Image
-              alt="git"
+              // alt="git"
               src={"/pdfcomp/gmail.png"}
               style={{
                 width: "12px",
@@ -203,7 +203,7 @@ const MyPage1 = () => {
           </View>
           <View style={styles.flexComp}>
             <Image
-              alt="git"
+              // alt="git"
               src={"/pdfcomp/linkedin.png"}
               style={{
                 width: "12px",
@@ -221,7 +221,7 @@ const MyPage1 = () => {
           </View>
           <View style={styles.flexComp}>
             <Image
-              alt={"git"}
+              // alt={"git"}
               src={"/pdfcomp/twitter.png"}
               style={{
                 width: "12px",
@@ -241,22 +241,14 @@ const MyPage1 = () => {
           <View>
             <Text style={styles.lgBoldText}>Achievements:</Text>
             <View style={styles.flexComp}>
-              <Image
-                alt="git"
-                src={"/pdfcomp/right-arrow.png"}
-                style={styles.imgSM}
-              />
+              <Image src={"/pdfcomp/right-arrow.png"} style={styles.imgSM} />
               <Text style={styles.mdText}>
                 * 11 months <Text style={{ fontWeight: 700 }}>Internship</Text>{" "}
                 at <Text style={{ fontWeight: 700 }}>Eubrics</Text>
               </Text>
             </View>
             <View style={styles.flexComp}>
-              <Image
-                alt="git"
-                src={"/pdfcomp/right-arrow.png"}
-                style={styles.imgSM}
-              />
+              <Image src={"/pdfcomp/right-arrow.png"} style={styles.imgSM} />
               <Text style={styles.mdText}>* Worked As a Freelancer</Text>
             </View>
           </View>
@@ -268,11 +260,7 @@ const MyPage1 = () => {
 
             <Text style={{ marginBottom: "2px" }}></Text>
             <View style={styles.flexComp}>
-              <Image
-                alt="git"
-                src={"/pdfcomp/point-cursor.png"}
-                style={styles.imgSM}
-              />
+              <Image src={"/pdfcomp/point-cursor.png"} style={styles.imgSM} />
               <Link
                 src="https://meeting-schedule-delta.vercel.app/disscussion"
                 style={styles.smText}
