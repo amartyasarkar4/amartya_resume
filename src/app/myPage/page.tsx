@@ -1,4 +1,6 @@
+"use client";
 import MyPDFViewer from "@/react-pdf";
+
 import React from "react";
 
 const MyPage = () => {
