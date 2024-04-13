@@ -29,7 +29,7 @@ const MyPDFViewer: React.FC = () => {
   useEffect(() => {
     // Check if window is defined (runs in client-side)
     if (typeof window !== "undefined") {
-      setWindowWidth(window.innerWidth);
+      setWindowWidth(window.innerWidth - 40);
       setWindowHeight(window.innerHeight);
     }
   }, []); // Empty dependency array to run only once after component mount
