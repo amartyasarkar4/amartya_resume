@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     marginBottom: "2px",
     fontSize: "10px",
     fontWeight: 400,
-    // fontFamily: "poppins",
+    fontFamily: "poppins",
   },
   textSection: {
     flex: 14,
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   textdesignHead: {
     fontSize: "8px",
     fontWeight: 700,
-    // fontFamily: "poppins",
+    fontFamily: "poppins",
   },
   nameSection: {
     flex: 0.31,
