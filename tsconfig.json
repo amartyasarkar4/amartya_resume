@@ -22,5 +22,11 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "baseUrl": "./",
+  "paths": {
+    "*": ["types/*"], // Example path to custom type declarations
+
+    "react-pdf": ["node_modules/react-pdf/dist/esm"]
+  }
 }

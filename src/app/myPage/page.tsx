@@ -1,10 +1,12 @@
 import MyPDFViewer from "@/react-pdf";
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+const MyPage = () => {
   return (
     <div>
       <MyPDFViewer />
     </div>
   );
-}
+};
+
+export default MyPage;
