@@ -48,33 +48,33 @@ const styles = StyleSheet.create({
   },
   smText: {
     fontSize: "9px",
-    fontFamily: "poppins",
+    // fontFamily: "poppins",
     fontWeight: 400,
   },
   smboldText: {
     fontSize: "9px",
-    fontFamily: "poppins",
+    // fontFamily: "poppins",
     fontWeight: 700,
     marginVertical: "5px",
   },
   mdText: {
     fontSize: "11px",
-    fontFamily: "poppins",
+    // fontFamily: "poppins",
     fontWeight: 500,
   },
   mdBoldText: {
     fontSize: "10px",
-    fontFamily: "poppins",
+    // fontFamily: "poppins",
     fontWeight: 700,
   },
   lgText: {
     fontSize: "13px",
-    fontFamily: "poppins",
+    // fontFamily: "poppins",
     fontWeight: 500,
   },
   lgBoldText: {
     fontSize: "13px",
-    fontFamily: "poppins",
+    // fontFamily: "poppins",
     fontWeight: 700,
   },
   flexComp: {

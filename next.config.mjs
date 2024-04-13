@@ -1,13 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.alias["react-pdf$"] =
-        "react-pdf/dist/esm/entry.webpack.js";
-    }
-    return config;
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;
 
