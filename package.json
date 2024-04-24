@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.4.2",
+    "framer-motion": "^11.1.7",
     "fs": "^0.0.1-security",
     "next": "14.2.0",
     "react": "^18",
