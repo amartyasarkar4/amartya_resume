@@ -9,7 +9,7 @@ const MyPage = () => {
     <div>
       <div className="flex justify-center w-full text-center">
         <AnimatedTextWord
-          text="Hello,dear Sorry for unble to show resume preview in Mobile Device so PLEASE download It by Clicking Download Resume"
+          text="Hello,dear Sorry for unable to show resume preview in Mobile Device so PLEASE download It by Clicking Download Resume"
           firstColor="text-cyan-700"
           secondColor="bg-gradient-to-r from-sky-900 via-fuchsia-500 to-lime-800 text-transparent bg-clip-text"
           secondColorAfterSpace={4}
