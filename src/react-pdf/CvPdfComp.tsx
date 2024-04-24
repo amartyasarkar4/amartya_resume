@@ -398,7 +398,7 @@ const MyPage1 = () => {
           <View style={styles.flexComp}>
             <Image src={"/pdfcomp/point.png"} style={styles.imgSM} />
             <Text style={styles.smText}>
-              aws cognito, google-calender integration,
+              aws cognito, google-calender integration, slack integration,
             </Text>
           </View>
           <View style={styles.flexComp}>
@@ -407,7 +407,9 @@ const MyPage1 = () => {
           </View>
           <View style={styles.flexComp}>
             <Image src={"/pdfcomp/point.png"} style={styles.imgSM} />
-            <Text style={styles.smText}>slack integration,</Text>
+            <Text style={styles.smText}>
+              Responsive Figma/psd design convert,Redux
+            </Text>
           </View>
           <Text style={{ marginBottom: "6px" }}></Text>
 
