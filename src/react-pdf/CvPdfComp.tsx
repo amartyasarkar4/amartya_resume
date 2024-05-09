@@ -370,7 +370,10 @@ const MyPage1 = () => {
               Material UI, <Text style={{ fontWeight: 600 }}>Node</Text>.js,
               Nest.js, Postgree SQL, MongoDB,{"  "}
               <Text style={{ fontWeight: 600 }}>Redux</Text>, Javascript, Html,
-              CSS, OOPs , Solidity, python, C++
+              CSS, <Text style={{ fontWeight: 600 }}>OOPs</Text> , Solidity,
+              python, <Text style={{ fontWeight: 600 }}>C++ , </Text>
+              <Text style={{ fontWeight: 600 }}>DSA , </Text>
+              Bootstrap
             </Text>
           </View>
           <Text style={{ marginBottom: "6px" }}></Text>
